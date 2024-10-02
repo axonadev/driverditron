@@ -29,8 +29,10 @@ const PrintOnLine = () => {
 
   return (
     <div>
-      <textarea ref={comandi} />
-      <button onClick={submithandler}>submit</button>
+      <textarea ref={comandi} id="cmd_textarea" />
+      <button onClick={submithandler} id="cmd_submit">
+        submit
+      </button>
     </div>
   );
 };
